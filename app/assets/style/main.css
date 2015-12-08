@@ -1,0 +1,100 @@
+#wide_nav {
+    padding: 10px 0;
+}
+
+#id {
+    display: block;
+    height: 100px !important;
+}
+
+.break {
+    width: 100%;
+    height: 40px;
+}
+
+.doubleBreak {
+    width: 100%;
+    height: 80px;
+}
+
+.package {
+    background:#34495e;
+    margin: 2px 0;
+}
+
+.package-ctrl {
+    position:absolute;
+    right: 8%;
+    bottom: 15%;
+}
+
+.btn-package {
+    color: #95a5a6;
+    background:#34495e;
+    transition: all 0.3s;
+    display: block;
+}
+
+.label {
+    transition: all 0.4s;
+}
+
+.btn-package:hover {
+}
+
+.checked {
+    opacity: 1;
+}
+
+.notCh {
+    opacity: 0.3;
+}
+
+#addPack {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    background: #5cb85c;
+}
+
+.animate-repeat.ng-enter {
+    animation: enter 0.3s;
+    -webkit-animation: enter 0.3s;
+}
+
+.animate-repeat.ng-leave {
+    animation: exit 0.3s;
+    -webkit-animation: exit 0.3s;
+}
+
+.animate-repeat.ng-enter-stagger,
+.animate-repeat.ng-leave-stagger,
+.animate-repeat.ng-move-stagger {
+  -webkit-animation-delay:0.25s;
+  animation-delay:0.25s;
+}
+
+
+.text-muted {
+    color: #63778a;
+}
+
+@keyframes enter {
+    from {
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes exit {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+}

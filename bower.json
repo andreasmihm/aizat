@@ -1,0 +1,24 @@
+{
+  "name": "PaketVerwaltung",
+  "version": "0.0.0",
+  "authors": [
+    "ait13die <aizattynychbekova@gmail.com>"
+  ],
+  "description": "WebAPP",
+  "keywords": [
+    "test"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.4",
+    "bootswatch-dist": "superhero",
+    "angular-local-storage": "~0.2.2"
+  }
+}
